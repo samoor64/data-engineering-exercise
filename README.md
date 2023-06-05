@@ -11,7 +11,7 @@ Design and implement a data pipeline that that pulls data from [Open Library](ht
 
 The objective of this exercise is to have you walk us through a solution you have created. Do as much or as little as you would like. 
 
-*NOTE: Keep in mind that this is meant for a roughly 60 minute interview and we want to understand your thinking and process. If you leave something out for the sake of time, mention it during your presentation. Mention things you would improve|change if this was a production grade applicaiton.*
+*NOTE: Keep in mind that this is meant for a roughly 60 minute interview and we want to understand your thinking and process. If you leave something out for the sake of time, mention it during your presentation. Mention things you would improve or change if this was a production grade applicaiton.*
 
 ## ReadMe
 Please include:
