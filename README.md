@@ -1,4 +1,4 @@
-## Data Engineering Exercise
+# Data Engineering Exercise
 Design and implement a data pipeline that that pulls data from [Open Library](https://openlibrary.org/developers/api) for a specific subject you are interested in. The [subjects API](https://openlibrary.org/dev/docs/api/subjects) can help you find a list of authors and books related to a particular subject. We recommend you keep the number of books you pull between 100 and 1000. As an output of this exercise we expect to see a minimum of the following:
 
 1. An architecture and the technologies or services you would use during implementation.
@@ -13,7 +13,7 @@ The objective of this exercise is to have you walk us through a solution you hav
 
 *NOTE: Keep in mind that this is meant for a roughly 60 minute interview and we want to understand your thinking and process. If you leave something out for the sake of time, mention it during your presentation. Mention things you would improve if this was a production grade applicaiton.*
 
-# ReadMe
+## ReadMe
 Please include:
 * a readme file that explains your thinking
 * a data model showing your design, explain why you designed the db and include the DDL used to generate the tables in your database
@@ -26,7 +26,7 @@ Please include:
 * recommendations for us
 
 
-# Additional Info:
+## Additional Info:
 * we expect that this will take you a few hours to complete
 * use any language or framework you are comfortable with, we prefer Python
 * AWS is our cloud provider please include mention of the services you would choose
