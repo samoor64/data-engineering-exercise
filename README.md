@@ -1,13 +1,14 @@
 # Data Engineering Exercise
-Design and implement a data pipeline that that pulls data from [Open Library](https://openlibrary.org/developers/api) for a specific subject you are interested in. The [subjects API](https://openlibrary.org/dev/docs/api/subjects) can help you find a list of authors and books related to a particular subject. We recommend you keep the number of books you pull between 100 and 1000. As an output of this exercise we expect to see a minimum of the following:
+Design and implement a data pipeline that that pulls data from [Open Library](https://openlibrary.org/developers/api) for a specific subject you are interested in. The [subjects API](https://openlibrary.org/dev/docs/api/subjects) can help you find a list of authors and books related to a particular subject. Create a query to aggregate: the number of books written each year by author and the average number of books written by author per year. The result should contain author, year, total_per_year, and avg_books_year Sort the results by total number of books per year . We recommend you keep the number of books you pull between 100 and 1000. As an output of this exercise we expect to see a minimum of the following:
 
 1. An architecture and the technologies or services you would use during implementation.
-2. Python program that pulls data from the rest api
+2. Python program that pulls data from the rest api and populates a SQLite database
 3. CSV files for the following:
 	* Authors
 	* Books
 	* Authors and Books (a bridge table between the previous entities)
-4. DDL to create a hypothetical database schema ( you don't have to create a DB but you are welcome to)
+4. DDL used to create your DB tables
+5. SQL used to aggregate the author data
 
 The objective of this exercise is to have you walk us through a solution you have created. Do as much or as little as you would like. 
 
