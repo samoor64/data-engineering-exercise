@@ -1,31 +1,60 @@
 # Data Engineering Exercise
-Design and implement a data pipeline that that pulls data from [Open Library](https://openlibrary.org/developers/api) for a specific subject you are interested in. The [subjects API](https://openlibrary.org/dev/docs/api/subjects) can help you find a list of authors and books related to a particular subject. Create a query to aggregate: the number of books written each year by author and the average number of books written by author per year. The result should contain author, year, total_per_year, and avg_books_year Sort the results by total number of books per year . We recommend you keep the number of books you pull between 100 and 1000. As an output of this exercise we expect to see a minimum of the following:
 
-1. An architecture and the technologies or services you would use during implementation.
-2. Python program that pulls data from the rest api and populates a SQLite database
-3. CSV files for the following:
-	* Authors
-	* Books
-	* Authors and Books (a bridge table between the previous entities)
-4. DDL used to create your DB tables
-5. SQL used to aggregate the author data
+## Objective:
+Design a simplified version of a data pipeline using a real-world scenario. The exercise focuses on your ability to integrate data from an external API, process it, and present insights in a manner that's valuable for product and analytics teams.
 
-The objective of this exercise is to have you walk us through a solution you have created. Do as much or as little as you would like. 
+## Scenario:
+ You are a part of a small online book company and your company wants to expand on the books provided by their online store. Your task if you choose to accept it, is to develop a mini data pipeline that extracts data from [Open Library's API](https://openlibrary.org/developers/api), focusing on a [subject](https://openlibrary.org/dev/docs/api/subjects) of your choice.
 
-*NOTE: Keep in mind that this is meant for a roughly 60 minute interview and we want to understand your thinking and process. If you leave something out for the sake of time, mention it during your presentation. Mention things you would improve or change if this was a production grade applicaiton.*
+This pipeline will be generalized for production use at a later date as the company wishes to perform similar analysis in the future. The data to be extracted includes a list of authors and books related to your chosen subject.
 
-## ReadMe
-Please include:
-* a readme file that explains your thinking
-* a data model showing your design, explain why you designed the db and include the DDL used to generate the tables in your database
-* how to run and set up your project
-* if you have tests, include instructions on how to run them
-* a description of:
-	* enhancements you might make
-	* additional features you have added to help or that you found interesting
-* questions you have
-* recommendations for us
+## Key Deliverables
+1. **Architecture Overview**:
+   - Briefly outline the architecture and the technologies or services you would use. As we use AWS, mention any relevant AWS services.
+   - Include a simple data model diagram.
 
+2. **Python Script**:
+   - Write a Python script to pull data from the API.
+   - Focus on extracting relevant details for authors and books.
+   - You may mock the insertion into a database due to time constraints.
+
+3. **Sample Data Output**:
+   - Provide CSV outputs for 'Authors' and 'Books'.
+   - Include a simple 'Authors and Books' relation (no need for a full bridge table).
+
+4. **Data Processing**:
+   - Write a SQL query (or Python equivalent) to aggregate:
+     - The number of books written each year by an author.
+     - The average number of books written by an author per year.
+   - Discuss how you would optimize this for a larger dataset.
+
+5. **Presentation**:
+   - Prepare a short presentation explaining your approach, decisions made, and any assumptions.
+   - Discuss what you would do differently in a production environment and potential enhancements.
+
+6. **ReadMe & Documentation**:
+   - Include a brief ReadMe file explaining your approach.
+   - Document any setup instructions or prerequisites.
+
+## Duration:
+- This exercise is designed to be completed within a few hours. Focus on working code and explaining that code to the interviewers
+- Focus on demonstrating your thought process, ability to work with data, and how you would communicate your findings to product and analytics teams.
+
+**Evaluation Criteria**:
+- Clarity of thought and communication.
+- Practicality and relevance of the data pipeline design.
+- Coding style and data handling in Python.
+- Understanding of basic data aggregation and SQL queries.
+- Ability to think about scalability and production-readiness.
+
+**Optional Enhancements** (if time permits):
+- Include basic error handling or data validation in your script.
+- Discuss security considerations, especially in the context of AWS.
+- Briefly mention how you would incorporate infrastructure as code, like Terraform.
+
+**Note**:
+- It's okay to leave out certain aspects for time's sake. Prioritize the core components and be ready to discuss what you would add or change for a real-world scenario.
+- Your presentation and discussion will be a key part of the interview, allowing us to understand your approach and problem-solving skills.
 
 ## Additional Info:
 * we expect that this will take you a few hours to complete
