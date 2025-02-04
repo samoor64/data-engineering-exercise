@@ -16,7 +16,8 @@ This pipeline will be generalized for production use at a later date as the comp
      events would be triggered via S3 to run downstream ETL processes.
   
    - Include a simple data model diagram.
-   ![image](https://github.com/user-attachments/assets/42b6608d-fc96-4e3d-af4c-2bf0e067d3c7)
+   ![image](https://github.com/user-attachments/assets/2d8bba1e-bc61-4223-ba44-0d779fa821d3)
+
 
 
 
