@@ -1,0 +1,35 @@
+create table gold_books as (
+author_key varchar(255) PRIMARY KEY NOT NULL,
+author_name varchar(255),
+cover_edition_key varchar(255),
+cover_i integer,
+edition_count integer,
+first_publish_year integer,
+has_fulltext boolean,
+ia varchar(),
+ia_collection_s varchar(),
+id_librivox varchar(),
+id_project_gutenberg varchar(),
+id_standard_ebooks varchar(),
+id_wikisource varchar(),
+key varchar(255),
+language varchar(255),
+lending_edition_s varchar(255),
+lending_identifier_s varchar(255),
+public_scan_b boolean,
+subject varchar(255),
+subtitle varchar(255),
+title varchar(255),
+);
+
+create table authors as (
+author_key varchar(255) PRIMARY KEY NOT NULL,
+name varchar(255),
+death_date integer,
+birth_date integer,
+isni integer,
+viaf integer,
+wikidata varchar(255),
+created timestamp_ntz,
+last_modified timestamp_ntz
+)
