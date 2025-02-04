@@ -12,6 +12,8 @@ This pipeline will be generalized for production use at a later date as the comp
 1. **Architecture Overview**:
    - Briefly outline the architecture and the technologies or services you would use. As we use AWS, mention any relevant AWS services.
    - Include a simple data model diagram.
+   - ![image](https://github.com/user-attachments/assets/8252fb64-fbc0-4f23-b700-c4beafe3eb87)
+
 
 2. **Python Script**:
    - Write a Python script to pull data from the API.
